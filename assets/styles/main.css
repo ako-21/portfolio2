@@ -26,17 +26,9 @@ a:hover {
 }
 
 .banner {
-  background-color: #2f4f4f;
+  background-color: #2f4f4fB3;
   color: white;
   height: 200px;
-  margin-bottom: 20%;
-}
-
-.about-me {
-  height: 200px;
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
 }
 
 .banner-txt{
@@ -63,4 +55,71 @@ h2 {
 
 .code {
   background-image: url('./../images/coder.png');
+  background-attachment: fixed;
+  background-position:0% 60%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.about-me {
+  background-image: url('./../images/kitchen2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 650px;
+  background-attachment: fixed;
+}
+
+.akeem {
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 60px;
+  border-color: white;
+  margin-top: -100px;
+}
+
+.section-about-me{
+  margin-top: 3%;
+}
+
+.section-desc {
+  width: 50%;
+  background-color: #2f4f4fE6;
+  color: white;
+  border-radius: 10px 60px 38px 25px;
+}
+
+.about-me-par {
+  padding: 25px;
+  font-size: 2vw;
+}
+
+.section-title {
+  margin-top: 13%;
+}
+
+.title-about-me {
+  font-size: 4vw;
+  color: white;
+  background-color: #2f4f4fE6;
+  padding: 25px;
+  border-radius: 10px 60px 38px 25px;
+}
+
+.title-skills {
+  font-size: 5vw;
+  color: #2f4f4f;
+}
+
+.skills {
+  background-image: url('./../images/coder.png');
+  background-attachment: fixed;
+  background-position:0% 60%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.devicon-git-plain {
+  max-width: 2em;
 }
