@@ -189,3 +189,16 @@ i {
 .btn {
   height: 50%;
 }
+
+#linkedin, #github {
+  font-size: 3vw;
+}
+
+.contact {
+  height: 500px;
+}
+
+form {
+  width: 60%;
+  margin-top: 3%;
+}
