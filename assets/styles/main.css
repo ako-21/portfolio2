@@ -126,11 +126,16 @@ i {
 
 .white {
   color: white;
+  font-size: 3vw;
 }
 
 .work {
-  background-color: #2f4f4f;
-  height: 2300px;
+  background-image: url('./../images/coder2.png');
+  background-attachment: fixed;
+  background-position:0% 60%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 2400px;
 }
 
 .tool-box-img {
@@ -169,5 +174,18 @@ i {
   padding-right: 2%;
   border-style: solid;
   border-radius: 25px;
-  margin-top: 4%;
+  margin-top: 2%;
+}
+.project-one-desc {
+  color: white;
+  font-size: 2vw;
+}
+
+.title-products {
+  font-size: 5vw;
+  color: white;
+}
+
+.btn {
+  height: 50%;
 }
