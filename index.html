@@ -259,20 +259,71 @@ their budgets, tasks, and completion. Future iteration will include a feature to
         <p>Thanks for visiting my site, and feel free to get in touch!</p>
     </div>
     <div class="d-flex justify-content-center">
-    <form>
+    <form id="my-form" class="contact-me" action="https://formspree.io/mjvaqvva" method="POST">
       <div class="form-row mb-4">
         <div class="col">
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+        <input required type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
         </div>
       <div class="col">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+      <input required type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
       </div>
     </div>
       <div class="form-group">
-      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+      <textarea required class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
        </div>
+       <div class="d-flex justify-content-end">
+       <button id="my-form-button" type="submit" class="btn btn-secondary submit">Submit</button>
+     </div>
+     <p id="my-form-status"></p>
     </form>
   </div>
   </div>
+  <script>
+  window.addEventListener("DOMContentLoaded", function() {
+
+    // get the form elements defined in your form HTML above
+
+    var form = document.getElementById("my-form");
+    var button = document.getElementById("my-form-button");
+    var status = document.getElementById("my-form-status");
+
+    // Success and Error functions for after the form is submitted
+
+    function success() {
+      form.reset();
+      button.style = "display: none ";
+      status.innerHTML = "Thanks!";
+    }
+
+    function error() {
+      status.innerHTML = "Oops! There was a problem.";
+    }
+
+    // handle the form submission event
+
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      var data = new FormData(form);
+      ajax(form.method, form.action, data, success, error);
+    });
+  });
+
+  // helper function for sending an AJAX request
+
+  function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+</script>
     </body>
 </html>
