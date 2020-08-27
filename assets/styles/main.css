@@ -223,10 +223,11 @@ form {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
 .about-m, .skills, .work {
 
     background-size: auto;
+    background-attachment: scroll;
 
 }
 }
