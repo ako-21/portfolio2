@@ -57,17 +57,20 @@ h2 {
   background-image: url('./../images/coder.png');
   background-attachment: fixed;
   background-position:0% 60%;
-  background-size: 100%;
   background-repeat: no-repeat;
-  height: 800px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 25%;
 }
 
 .about-me {
   background-image: url('./../images/kitchen2.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 650px;
   background-attachment: fixed;
+  background-size: 100%;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 10%;
 }
 
 .akeem {
@@ -76,6 +79,7 @@ h2 {
   border-radius: 60px;
   border-color: white;
   margin-top: -100px;
+
 }
 
 .section-about-me{
@@ -83,7 +87,6 @@ h2 {
 }
 
 .section-desc {
-  width: 50%;
   background-color: #2f4f4fE6;
   color: white;
   border-radius: 10px 60px 38px 25px;
@@ -102,8 +105,9 @@ h2 {
   font-size: 4vw;
   color: white;
   background-color: #2f4f4fE6;
-  padding: 25px;
+  padding: 10px;
   border-radius: 10px 60px 38px 25px;
+  text-align: center;
 }
 
 .title-skills {
@@ -115,9 +119,10 @@ h2 {
   background-image: url('./../images/coder.png');
   background-attachment: fixed;
   background-position:0% 60%;
-  background-size: 100%;
   background-repeat: no-repeat;
-  height: 700px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
 }
 
 i {
@@ -133,9 +138,10 @@ i {
   background-image: url('./../images/coder2.png');
   background-attachment: fixed;
   background-position:0% 60%;
-  background-size: 100%;
   background-repeat: no-repeat;
-  height: 2400px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10%;
 }
 
 .tool-box-img {
@@ -156,13 +162,6 @@ i {
   border-radius: 10px;
 }
 
-.project-one-image {
-  width: 50%;
-}
-
-.project-one-detail {
-  width: 50%;
-}
 
 .project-two {
   margin-top: 10%;
@@ -175,6 +174,7 @@ i {
   border-style: solid;
   border-radius: 25px;
   margin-top: 2%;
+  font-size: 2vw;
 }
 .project-one-desc {
   color: white;
@@ -184,10 +184,6 @@ i {
 .title-products {
   font-size: 5vw;
   color: white;
-}
-
-.btn {
-  height: 50%;
 }
 
 #linkedin, #github {
@@ -209,4 +205,21 @@ form {
 
 .sizethree {
   font-size: 3vw;
+}
+
+.live, .repo {
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 400px) {
+  .akeem {
+    width: 30%;
+    margin-top: -75px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .akeem {
+    width: 40%;
+  }
 }
