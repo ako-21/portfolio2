@@ -235,6 +235,15 @@ form {
 @media (max-width: 1025px) {
 .work {
 
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+}
+
+@media (max-width: 780px) {
+.work {
+
     background-size: auto;
     background-attachment: scroll;
 
