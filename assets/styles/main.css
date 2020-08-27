@@ -241,7 +241,16 @@ form {
 }
 }
 
-@media (max-width: 813px) {
+@media (max-width: 815px) {
+.work {
+
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+}
+
+@media (max-width: 780px) {
 .work {
 
     background-size: auto;
