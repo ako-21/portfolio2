@@ -245,7 +245,7 @@ form {
 .work {
 
 
-    height: auto;
+    background-size: cover;
     background-attachment: scroll;
 
 }
