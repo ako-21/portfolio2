@@ -226,7 +226,7 @@ form {
 @media (max-width: 1025px) {
 .about-m, .skills, .work {
 
-    background-size: auto;
+    background-size: cover;
     background-attachment: scroll;
 
 }
