@@ -214,7 +214,7 @@ form {
 @media screen and (max-width: 400px) {
   .akeem {
     width: 40%;
-    height: auto;
+    height: 40%;
     margin-top: -75px;
   }
 }
@@ -222,7 +222,7 @@ form {
 @media screen and (max-width: 450px) {
   .akeem {
     width: 40%;
-    height: auto;
+    height: 40%;
   }
 }
 
