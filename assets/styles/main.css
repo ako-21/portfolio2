@@ -232,14 +232,15 @@ form {
 }
 }
 
-@media (max-width: 1025px) {
-.about-me {
+@media (max-width: 825px) {
+.work {
 
-    background-size: 100%;
+    background-size: auto;
     background-attachment: scroll;
 
 }
 }
+
 
 
 
