@@ -235,8 +235,17 @@ form {
 @media (max-width: 825px) {
 .work {
 
-    background-size: auto;
+    background-size: cover;
     background-attachment: scroll;
+
+}
+}
+
+@media (max-width: 825px) {
+.akeem {
+
+    width: 20%;
+    height: auto;
 
 }
 }
