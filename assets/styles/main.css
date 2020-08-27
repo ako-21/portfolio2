@@ -224,7 +224,7 @@ form {
 }
 
 @media (max-width: 1025px) {
-.about-me, .skills, .work {
+.about-me, .skills {
 
     background-size: 100%;
     background-attachment: scroll;
@@ -232,7 +232,7 @@ form {
 }
 }
 
-@media (max-width: 825px) {
+@media (max-width: 1025px) {
 .work {
 
     background-size: auto;
