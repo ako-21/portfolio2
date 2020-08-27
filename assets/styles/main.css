@@ -243,10 +243,7 @@ form {
 
 @media (max-width: 815px) {
 .work {
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: 1500px 3500px;
     background-attachment: scroll;
 
 }
