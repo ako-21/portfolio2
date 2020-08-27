@@ -223,6 +223,15 @@ form {
   }
 }
 
+@media (max-width: 767px) {
+.about-m, .skills, .work {
+
+    background-size: auto;
+
+}
+}
+
+
 
 
 .inputt {
