@@ -28,7 +28,8 @@ a:hover {
 .banner {
   background-color: #2f4f4fB3;
   color: white;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 
 .banner-txt{
@@ -56,6 +57,7 @@ h2 {
 .code {
   background-image: url('./../images/coder.png');
   background-attachment: fixed;
+  background-size: 100%;
   background-position:0% 60%;
   background-repeat: no-repeat;
   width: 100%;
@@ -120,6 +122,7 @@ h2 {
 .skills {
   background-image: url('./../images/coder.png');
   background-attachment: fixed;
+  background-size: 100%;
   background-position:0% 60%;
   background-repeat: no-repeat;
   width: 100%;
@@ -139,6 +142,7 @@ i {
 .work {
   background-image: url('./../images/coder2.png');
   background-attachment: fixed;
+  background-size: 100%;
   background-position:0% 60%;
   background-repeat: no-repeat;
   width: 100%;
